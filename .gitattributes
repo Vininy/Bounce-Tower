@@ -1,5 +1,5 @@
-# Oculta tudo do Linguist
+# Oculta tudo
 * linguist-vendored
 
-# Destaca só C# como linguagem principal
+# Exibe apenas C#
 *.cs linguist-vendored=false linguist-language=C#
