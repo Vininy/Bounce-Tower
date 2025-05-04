@@ -1,6 +1,5 @@
-# Force C# como linguagem principal
-*.cs linguist-language=C#
+# Oculta tudo do Linguist
+* linguist-vendored
 
-# Marcar como vendored (não conta para linguagens)
-Library/** linguist-vendored
-Packages/** linguist-vendored
+# Destaca só C# como linguagem principal
+*.cs linguist-vendored=false linguist-language=C#
